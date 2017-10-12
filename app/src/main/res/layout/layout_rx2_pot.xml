@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/RX2_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RX2_recyclerView_pot"
+            android:layout_width="match_parent"
+            android:layout_height="450dp">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v7.widget.CardView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="9dp"-->
+        <!--android:layout_weight="5">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/ed_masp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Mã SP"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/ed_tensp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Tên sp"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/ed_soluongsp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Số lượng sản phẩm"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/ed_ma_idpot"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Mã idpot"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_themsp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="9dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Thêm sản phẩm"/>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>

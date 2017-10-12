@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_background1"
+    android:orientation="vertical"
+    tools:context="com.example.nhuviet.hockontlin_synthetic_signin.View.Home.DangNhap.Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:theme="@style/EditTextHint">
+
+            <EditText
+                android:id="@+id/ed_dkdiachiemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Địa Chỉ Email"
+                android:textColor="@color/colortrang"
+                android:textAllCaps="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:theme="@style/EditTextHint"
+            app:useeyeTrike="true"
+            app:usevalidata="true">
+
+            <EditText
+                android:id="@+id/ed_dkmatkhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/colortrang"
+                android:hint="Mật Khẩu"
+                android:inputType="textPassword"
+                android:textAllCaps="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/bt_dangki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colordangnhap"
+            android:text="Đăng Ký"
+            android:textAllCaps="false"
+            android:textColor="@color/colortrang" />
+    </LinearLayout>
+</LinearLayout>

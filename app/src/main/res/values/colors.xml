@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorxanhlam">#c617d644</color>
+    <color name="colortim">#f1243aa7</color>
+    <color name="colordangnhap">#55c755</color>
+    <color name="colortrang">#f7f7f7</color>
+    <color name="colordo">#dcf56206</color>
+    <color name="colorxam">#eb8cb9c9</color>
+    <color name="colorxanh">#1174d7</color>
+</resources>

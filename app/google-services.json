@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986369360044",
+    "project_id": "siginsynthetic"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986369360044:android:e72bd222436b304b",
+        "android_client_info": {
+          "package_name": "com.example.nhuviet.hockontlin_synthetic_signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986369360044-qi0u7g88irtdssnqt1d2tca0fq92lldc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nhuviet.hockontlin_synthetic_signin",
+            "certificate_hash": "3bbed947c5db8940c7f2ffaac2c9c4f3c62c5de1"
+          }
+        },
+        {
+          "client_id": "986369360044-mupd5qq9v52v36c8btuuo3nnh4eo8var.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSx6QBdJSl_ZW7fMzjPCT-UCzpJfT5ieM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

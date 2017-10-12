@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hockontlin_synthetic_signin</string>
+    <string name="facebook_app_id">526355994421443</string>
+    <string name="fb_login_protocol_scheme">fb526355994421443</string>
+    <string name="google_plus_client">986369360044-mupd5qq9v52v36c8btuuo3nnh4eo8var.apps.googleusercontent.com</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

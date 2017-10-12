@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    texrlayoutinput
+    <style name="EditTextHint"  parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colortrang</item>
+        <item name="android:textSize">14sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="android:textColor">@color/colordo</item>
+        <item name="colorControlNormal">@color/colortrang</item>
+        <item name="colorControlActivated">@color/colortrang</item>
+    </style>
+
+    <declare-styleable name="PassWord_EditText">
+        <attr name="useeyeTrike" format="boolean"> </attr>
+        <attr name="usevalidata" format="boolean"> </attr>
+    </declare-styleable>
+
+<!--tap layout-->
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">120dp</item>
+        <item name="tabIndicatorColor">@color/colortrang</item>
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="tabPaddingStart">18dp</item>
+        <item name="tabPaddingEnd">18dp</item>
+        <item name="tabBackground">@color/colorxanh</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/colortrang</item>
+    </style>
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colortrang</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>
